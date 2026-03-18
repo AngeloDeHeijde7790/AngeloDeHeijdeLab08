@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color ic_launcher_background
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable salamanders
+id angMain
+id angTextView
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+mipmap ic_sal
+string app_name
+style Base.Theme.AngeloLab08
+style Theme.AngeloLab08
+xml backup_rules
+xml data_extraction_rules
