@@ -7,4 +7,9 @@
     <color name="nav_item_selected_bg">#F2F3FF</color>
     <color name="nav_item_text_color">#757575</color>
     <color name="nav_item_selected_text_color">#8E97FD</color>
+    <color name="light_green">#90EE90</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="light_orange">#FAB972</color>
+    <color name="share_bg">#FAB972</color>
+    <color name="light_pink">#FFC0CB</color>
 </resources>

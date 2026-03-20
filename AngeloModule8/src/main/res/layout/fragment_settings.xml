@@ -8,11 +8,10 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- 49.b: Settings text -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Settings"
+        android:text="@string/settings_title"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -23,7 +22,6 @@
         android:layout_width="match_parent"
         android:layout_height="40dp" />
 
-    <!-- 49.d: ImageView -->
     <ImageView
         android:id="@+id/angSettingsImageView"
         android:layout_width="300dp"
@@ -35,11 +33,10 @@
         android:layout_width="match_parent"
         android:layout_height="40dp" />
 
-    <!-- 49.c: Button -->
     <Button
         android:id="@+id/angSettingsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Access Photos" />
+        android:text="@string/settings_button_text" />
 
 </LinearLayout>

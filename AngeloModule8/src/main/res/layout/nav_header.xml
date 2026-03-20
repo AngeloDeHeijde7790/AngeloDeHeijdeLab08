@@ -19,9 +19,6 @@
         android:foreground="@mipmap/ic_launcher_round"
         android:foregroundGravity="center" />
 
-    <!-- Note: To make the View circular, we'd normally use a shape drawable or CardView.
-         For simplicity in this step, I'll use a circular drawable for background. -->
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

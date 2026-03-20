@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Angelo De Heijde Diaz - N01727790 -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Angelo De Heijde Diaz - N01727790 -->
 <resources>
     <string name="app_name">AngeloLab08</string>
     <string name="user_name">Angelo De Heijde Diaz</string>
@@ -12,6 +13,21 @@
     <string name="nav_header_subtitle">angelo.deheijde@humber.ca</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_user_info">Angelo De Heijde Diaz - N01727790</string>
+    <string name="home_button_text">Change Image</string>
+    <string name="share_profile_title">Profile</string>
+    <string name="share_checkbox_text">CheckBox</string>
+    <string name="share_email_label">Email: </string>
+    <string name="share_email_hint">Enter email</string>
+    <string name="share_id_label">ID: </string>
+    <string name="share_id_hint">Enter student id (digits only)</string>
+    <string name="share_button_content_description">Submit button</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_button_text">Access Photos</string>
+    <string name="about_first_name">Angelo</string>
+    <string name="about_last_name">De Heijde</string>
+    <string name="about_no_data">NO DATA</string>
+    <string name="about_toggle_on">Lock Portrait: ON</string>
+    <string name="about_toggle_off">Lock Portrait: OFF</string>
 </resources>

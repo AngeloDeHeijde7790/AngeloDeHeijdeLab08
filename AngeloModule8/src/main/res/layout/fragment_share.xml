@@ -8,11 +8,10 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- 52.d: Profile text -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Profile"
+        android:text="@string/share_profile_title"
         android:textColor="@android:color/black"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -22,12 +21,11 @@
         android:layout_width="match_parent"
         android:layout_height="40dp" />
 
-    <!-- 52.f: Checkbox -->
     <CheckBox
         android:id="@+id/angShareCheckbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox"
+        android:text="@string/share_checkbox_text"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="18sp" />
 
@@ -35,7 +33,6 @@
         android:layout_width="match_parent"
         android:layout_height="20dp" />
 
-    <!-- 52.g: Email Section -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,14 +40,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Email: "
+            android:text="@string/share_email_label"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
         <EditText
             android:id="@+id/angShareEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter email"
+            android:hint="@string/share_email_hint"
             android:inputType="textEmailAddress" />
     </LinearLayout>
 
@@ -58,7 +55,6 @@
         android:layout_width="match_parent"
         android:layout_height="10dp" />
 
-    <!-- 52.h: ID Section -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -66,14 +62,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ID: "
+            android:text="@string/share_id_label"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
         <EditText
             android:id="@+id/angShareId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter student id (digits only)"
+            android:hint="@string/share_id_hint"
             android:inputType="number"
             android:maxLength="8" />
     </LinearLayout>
@@ -82,14 +78,13 @@
         android:layout_width="match_parent"
         android:layout_height="30dp" />
 
-    <!-- i. ImageButton with an image of your choice. -->
     <ImageButton
         android:id="@+id/angShareImageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/salamanders"
         android:background="?attr/selectableItemBackground"
-        android:contentDescription="Submit button"
+        android:contentDescription="@string/share_button_content_description"
         android:scaleType="centerInside"
         android:layout_gravity="center_horizontal" />
 

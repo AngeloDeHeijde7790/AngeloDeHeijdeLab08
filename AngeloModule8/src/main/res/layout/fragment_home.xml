@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Angelo De Heijde Diaz - N01727790"
+        android:text="@string/home_user_info"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="25sp"
         android:textStyle="bold|italic"
@@ -40,6 +40,6 @@
         android:id="@+id/angHomeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Change Image" />
+        android:text="@string/home_button_text" />
 
 </LinearLayout>

@@ -7,7 +7,6 @@
     android:background="@color/light_pink"
     tools:context=".AboutUsFragment">
 
-    <!-- 53.c: First name, bold, 25sp, blue, top, rotated +45 degrees -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,12 +14,11 @@
         android:layout_marginTop="50dp"
         android:layout_marginStart="50dp"
         android:rotation="45"
-        android:text="Angelo"
+        android:text="@string/about_first_name"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="25sp"
         android:textStyle="bold" />
 
-    <!-- 53.d: Last name, bold, 25sp, red, top, rotated -45 degrees -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,31 +26,29 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
         android:rotation="-45"
-        android:text="De Heijde"
+        android:text="@string/about_last_name"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="25sp"
         android:textStyle="bold" />
 
-    <!-- 53.e & f: Display data from SharedPreferences -->
     <TextView
         android:id="@+id/angAboutData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="NO DATA"
+        android:text="@string/about_no_data"
         android:textSize="18sp"
         android:textColor="@android:color/black"
         android:padding="16dp" />
 
-    <!-- 53.g: Toggle button to lock device orientation -->
     <ToggleButton
         android:id="@+id/angAboutToggle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="50dp"
-        android:textOn="Lock Portrait: ON"
-        android:textOff="Lock Portrait: OFF" />
+        android:textOn="@string/about_toggle_on"
+        android:textOff="@string/about_toggle_off" />
 
 </FrameLayout>
