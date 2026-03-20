@@ -33,12 +33,14 @@ public class AboutUsFragment extends Fragment {
         angAboutData = view.findViewById(R.id.angAboutData);
         angAboutToggle = view.findViewById(R.id.angAboutToggle);
 
-        // 53.g: Toggle button to lock device orientation
+        // 53.g & h: Toggle button to lock device orientation
         angAboutToggle.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
+                // 53.g: If ON, lock to portrait
                 requireActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
             } else {
-                requireActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
+                // 53.h: If OFF, set to auto orientation (SENSOR)
+                requireActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
             }
         });
 
