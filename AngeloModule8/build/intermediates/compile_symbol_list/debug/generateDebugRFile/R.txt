@@ -2,11 +2,13 @@ int color black 0x0
 int color ic_launcher_background 0x0
 int color light_blue 0x0
 int color light_green 0x0
+int color light_orange 0x0
 int color nav_header_bg 0x0
 int color nav_item_color_state 0x0
 int color nav_item_selected_bg 0x0
 int color nav_item_selected_text_color 0x0
 int color nav_item_text_color 0x0
+int color share_bg 0x0
 int color white 0x0
 int drawable emperor 0x0
 int drawable galaxia3 0x0
@@ -32,6 +34,10 @@ int id angMain 0x0
 int id angNavigationView 0x0
 int id angSettingsButton 0x0
 int id angSettingsImageView 0x0
+int id angShareCheckbox 0x0
+int id angShareEmail 0x0
+int id angShareId 0x0
+int id angShareImageButton 0x0
 int id angTextView 0x0
 int id angToolbar 0x0
 int id nav_about 0x0

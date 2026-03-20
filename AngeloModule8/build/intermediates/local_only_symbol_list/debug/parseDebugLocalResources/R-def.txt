@@ -4,11 +4,13 @@ color black
 color ic_launcher_background
 color light_blue
 color light_green
+color light_orange
 color nav_header_bg
 color nav_item_color_state
 color nav_item_selected_bg
 color nav_item_selected_text_color
 color nav_item_text_color
+color share_bg
 color white
 drawable emperor
 drawable galaxia3
@@ -34,6 +36,10 @@ id angMain
 id angNavigationView
 id angSettingsButton
 id angSettingsImageView
+id angShareCheckbox
+id angShareEmail
+id angShareId
+id angShareImageButton
 id angTextView
 id angToolbar
 id nav_about

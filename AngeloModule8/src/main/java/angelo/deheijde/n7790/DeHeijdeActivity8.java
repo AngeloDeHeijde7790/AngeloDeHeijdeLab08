@@ -97,8 +97,9 @@ public class DeHeijdeActivity8 extends AppCompatActivity implements NavigationVi
         if (id == R.id.nav_home) {
             replaceFragment(new HomeFragment());
         } else if (id == R.id.nav_settings) {
-            // Added logic to display SettingsFragment
             replaceFragment(new SettingsFragment());
+        } else if (id == R.id.nav_share) {
+            replaceFragment(new ShareFragment());
         } else if (id == R.id.nav_logout) {
             showExitAlertDialog();
         }
