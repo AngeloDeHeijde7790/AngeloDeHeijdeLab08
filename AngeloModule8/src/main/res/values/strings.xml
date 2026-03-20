@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Angelo De Heijde Diaz - N01727790 -->
+<?xml version="1.0" encoding="utf-8"?><!-- Angelo De Heijde Diaz - N01727790 -->
 <resources>
     <string name="app_name">AngeloLab08</string>
     <string name="user_name">Angelo De Heijde Diaz</string>
@@ -13,4 +12,6 @@
     <string name="nav_header_subtitle">angelo.deheijde@humber.ca</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
