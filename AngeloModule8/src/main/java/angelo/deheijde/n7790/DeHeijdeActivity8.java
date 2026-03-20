@@ -1,6 +1,9 @@
 //Angelo De Heijde Diaz - N01727790
 package angelo.deheijde.n7790;
 
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.TextView;
@@ -9,6 +12,7 @@ import android.widget.Toast;
 import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
@@ -45,19 +49,58 @@ public class DeHeijdeActivity8 extends AppCompatActivity implements NavigationVi
             contentTextView.setText(R.string.menu_home);
         }
 
-        // Fix for deprecated onBackPressed()
+        // Handle user clicks on Android Back Key
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
                 if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
+                    // 43.a: If the sliding window is open, close the window.
                     drawerLayout.closeDrawer(GravityCompat.START);
                 } else {
-                    setEnabled(false);
-                    getOnBackPressedDispatcher().onBackPressed();
-                    setEnabled(true);
+                    // 43.b: If sliding window already closed, display AlertDialog
+                    showExitAlertDialog();
                 }
             }
         });
+    }
+
+    // 43.b.i-vi & 44: AlertDialog implementation
+    private void showExitAlertDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setIcon(R.mipmap.ic_launcher_round); // 43.b.i: Icon (not default)
+        builder.setTitle("Angelo De Heijde Diaz"); // 43.b.ii: Title (Full Name)
+        builder.setMessage("Do you want to exit the app ?"); // 43.b.iii: Message
+        
+        // 43.b.iv: Yes action
+        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                // Launch YouTube app with a specific video
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:dQw4w9WgXcQ"));
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                try {
+                    startActivity(intent);
+                } catch (Exception e) {
+                    // Fallback to web browser if YouTube app is not installed
+                    intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=dQw4w9WgXcQ"));
+                    startActivity(intent);
+                }
+                finish(); // Optional: Close the app after launching YouTube
+            }
+        });
+
+        // 43.b.v: No action
+        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss(); // Stays in the app
+            }
+        });
+
+        // 43.b.vi: User must not be able to dismiss without answering Yes or No
+        builder.setCancelable(false);
+
+        builder.create().show();
     }
 
     @Override
@@ -73,8 +116,8 @@ public class DeHeijdeActivity8 extends AppCompatActivity implements NavigationVi
         } else if (id == R.id.nav_about) {
             contentTextView.setText(R.string.menu_about);
         } else if (id == R.id.nav_logout) {
-            Toast.makeText(this, "Logging out...", Toast.LENGTH_SHORT).show();
-            contentTextView.setText(R.string.menu_logout);
+            // 44: If user clicks Logout, display the same AlertDialog
+            showExitAlertDialog();
         }
 
         drawerLayout.closeDrawer(GravityCompat.START);
