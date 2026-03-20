@@ -19,6 +19,7 @@ int drawable ic_logout 0x0
 int drawable ic_settings 0x0
 int drawable ic_share 0x0
 int drawable nav_item_background 0x0
+int drawable photo 0x0
 int drawable roboute_guilliman 0x0
 int drawable salamanders 0x0
 int drawable warhammer 0x0

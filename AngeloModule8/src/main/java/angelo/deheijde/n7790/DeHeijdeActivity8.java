@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
@@ -97,11 +96,11 @@ public class DeHeijdeActivity8 extends AppCompatActivity implements NavigationVi
 
         if (id == R.id.nav_home) {
             replaceFragment(new HomeFragment());
+        } else if (id == R.id.nav_settings) {
+            // Added logic to display SettingsFragment
+            replaceFragment(new SettingsFragment());
         } else if (id == R.id.nav_logout) {
             showExitAlertDialog();
-        } else {
-            // Placeholder for other fragments (Settings, Share, About)
-            // You can create fragments for these as well
         }
 
         drawerLayout.closeDrawer(GravityCompat.START);

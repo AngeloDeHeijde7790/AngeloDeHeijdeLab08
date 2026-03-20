@@ -3666,6 +3666,7 @@ int drawable notification_template_icon_bg 0x7f0700e9
 int drawable notification_template_icon_low_bg 0x7f0700ea
 int drawable notification_tile_bg 0x7f0700eb
 int drawable notify_panel_notification_icon_bg 0x7f0700ec
+int drawable photo 0x7f0700f6
 int drawable roboute_guilliman 0x7f0700f1
 int drawable salamanders 0x7f0700ed
 int drawable test_level_drawable 0x7f0700ee

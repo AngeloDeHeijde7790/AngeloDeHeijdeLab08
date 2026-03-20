@@ -20,6 +20,7 @@ drawable ic_logout
 drawable ic_settings
 drawable ic_share
 drawable nav_item_background
+drawable photo
 drawable roboute_guilliman
 drawable salamanders
 drawable warhammer
