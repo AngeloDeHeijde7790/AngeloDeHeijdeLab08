@@ -1,15 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Angelo De Heijde Diaz - N01727790 -->
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SettingsFragment">
+    android:background="@color/light_blue"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- 49.b: Settings text -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center" />
 
-</FrameLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <!-- 49.d: ImageView -->
+    <ImageView
+        android:id="@+id/angSettingsImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/photo"
+        android:scaleType="centerInside" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <!-- 49.c: Button -->
+    <Button
+        android:id="@+id/angSettingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Access Photos" />
+
+</LinearLayout>

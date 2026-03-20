@@ -8,10 +8,6 @@
         "source": "C:\\Users\\Angel_xwzuzrm\\.gradle\\daemon\\9.2.1\\angelo.deheijde.n7790.AngeloModule8-main-37:\\drawable\\nav_item_background.xml"
     },
     {
-        "merged": "angelo.deheijde.n7790.AngeloModule8-debug-35:/layout_fragment_home.xml.flat",
-        "source": "angelo.deheijde.n7790.AngeloModule8-main-37:/layout/fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\Angel_xwzuzrm\\.gradle\\daemon\\9.2.1\\angelo.deheijde.n7790.AngeloModule8-debug-35:\\drawable_warhammer.jpg.flat",
         "source": "C:\\Users\\Angel_xwzuzrm\\.gradle\\daemon\\9.2.1\\angelo.deheijde.n7790.AngeloModule8-main-37:\\drawable\\warhammer.jpg"
     },
@@ -114,6 +110,10 @@
     {
         "merged": "C:\\Users\\Angel_xwzuzrm\\.gradle\\daemon\\9.2.1\\angelo.deheijde.n7790.AngeloModule8-debug-35:\\mipmap-mdpi_ic_sal.webp.flat",
         "source": "C:\\Users\\Angel_xwzuzrm\\.gradle\\daemon\\9.2.1\\angelo.deheijde.n7790.AngeloModule8-main-37:\\mipmap-mdpi\\ic_sal.webp"
+    },
+    {
+        "merged": "angelo.deheijde.n7790.AngeloModule8-debug-35:/layout_fragment_settings.xml.flat",
+        "source": "angelo.deheijde.n7790.AngeloModule8-main-37:/layout/fragment_settings.xml"
     },
     {
         "merged": "C:\\Users\\Angel_xwzuzrm\\.gradle\\daemon\\9.2.1\\angelo.deheijde.n7790.AngeloModule8-debug-35:\\layout_fragment_settings.xml.flat",

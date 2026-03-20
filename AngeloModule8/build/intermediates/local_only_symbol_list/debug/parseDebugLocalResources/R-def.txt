@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 color black
 color ic_launcher_background
+color light_blue
 color light_green
 color nav_header_bg
 color nav_item_color_state
@@ -30,6 +31,8 @@ id angHomeButton
 id angHomeImageView
 id angMain
 id angNavigationView
+id angSettingsButton
+id angSettingsImageView
 id angTextView
 id angToolbar
 id nav_about
