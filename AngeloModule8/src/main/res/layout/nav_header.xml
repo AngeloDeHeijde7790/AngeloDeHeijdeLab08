@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Angelo De Heijde Diaz - N01727790 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@color/nav_header_bg"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <View
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="12dp"
+        android:elevation="2dp"
+        android:id="@+id/angHeaderIconContainer"
+        android:backgroundTint="@android:color/white"
+        android:foreground="@mipmap/ic_launcher_round"
+        android:foregroundGravity="center" />
+
+    <!-- Note: To make the View circular, we'd normally use a shape drawable or CardView.
+         For simplicity in this step, I'll use a circular drawable for background. -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nav_header_title"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nav_header_subtitle"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

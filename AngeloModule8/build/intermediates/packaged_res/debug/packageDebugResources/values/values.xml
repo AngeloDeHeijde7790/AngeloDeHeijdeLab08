@@ -2,8 +2,23 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="ic_launcher_background">#47811A</color>
+    <color name="nav_header_bg">#8E97FD</color>
+    <color name="nav_item_selected_bg">#F2F3FF</color>
+    <color name="nav_item_selected_text_color">#8E97FD</color>
+    <color name="nav_item_text_color">#757575</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">AngeloLab08</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="nav_header_subtitle">angelo.deheijde@humber.ca</string>
+    <string name="nav_header_title">Angelo De Heijde Diaz</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="user_email">angelo.deheijde@humber.ca</string>
+    <string name="user_name">Angelo De Heijde Diaz</string>
     <style name="Base.Theme.AngeloLab08" parent="Theme.Material3.DayNight.NoActionBar">
         
         

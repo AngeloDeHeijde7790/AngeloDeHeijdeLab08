@@ -2,4 +2,15 @@
 <!-- Angelo De Heijde Diaz - N01727790 -->
 <resources>
     <string name="app_name">AngeloLab08</string>
+    <string name="user_name">Angelo De Heijde Diaz</string>
+    <string name="user_email">angelo.deheijde@humber.ca</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_logout">Logout</string>
+    <string name="nav_header_title">Angelo De Heijde Diaz</string>
+    <string name="nav_header_subtitle">angelo.deheijde@humber.ca</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
