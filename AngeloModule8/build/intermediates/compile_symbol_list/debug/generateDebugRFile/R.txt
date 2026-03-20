@@ -3,6 +3,7 @@ int color ic_launcher_background 0x0
 int color light_blue 0x0
 int color light_green 0x0
 int color light_orange 0x0
+int color light_pink 0x0
 int color nav_header_bg 0x0
 int color nav_item_color_state 0x0
 int color nav_item_selected_bg 0x0

@@ -5,6 +5,7 @@ color ic_launcher_background
 color light_blue
 color light_green
 color light_orange
+color light_pink
 color nav_header_bg
 color nav_item_color_state
 color nav_item_selected_bg
