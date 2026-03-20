@@ -2,12 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="ic_launcher_background">#47811A</color>
+    <color name="light_green">#90EE90</color>
     <color name="nav_header_bg">#8E97FD</color>
     <color name="nav_item_selected_bg">#F2F3FF</color>
     <color name="nav_item_selected_text_color">#8E97FD</color>
     <color name="nav_item_text_color">#757575</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">AngeloLab08</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_about">About Us</string>
     <string name="menu_home">Home</string>
     <string name="menu_logout">Logout</string>
