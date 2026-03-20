@@ -3755,6 +3755,7 @@ int id all 0x7f08004b
 int id allStates 0x7f08004c
 int id always 0x7f08004d
 int id angAboutData 0x7f08021f
+int id angAboutToggle 0x7f080220
 int id angDrawerLayout 0x7f08004e
 int id angFragmentContainer 0x7f08004f
 int id angHeaderIconContainer 0x7f080050

@@ -45,4 +45,14 @@
         android:textColor="@android:color/black"
         android:padding="16dp" />
 
+    <!-- 53.g: Toggle button to lock device orientation -->
+    <ToggleButton
+        android:id="@+id/angAboutToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:textOn="Lock Portrait: ON"
+        android:textOff="Lock Portrait: OFF" />
+
 </FrameLayout>

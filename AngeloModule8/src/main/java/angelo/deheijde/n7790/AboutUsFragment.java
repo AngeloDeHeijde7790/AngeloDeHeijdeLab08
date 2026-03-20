@@ -3,12 +3,14 @@ package angelo.deheijde.n7790;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,6 +20,7 @@ public class AboutUsFragment extends Fragment {
 
     private static int counter = 0;
     private TextView angAboutData;
+    private ToggleButton angAboutToggle;
 
     public AboutUsFragment() {
         // Required empty public constructor
@@ -28,6 +31,17 @@ public class AboutUsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_about_us, container, false);
         angAboutData = view.findViewById(R.id.angAboutData);
+        angAboutToggle = view.findViewById(R.id.angAboutToggle);
+
+        // 53.g: Toggle button to lock device orientation
+        angAboutToggle.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked) {
+                requireActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+            } else {
+                requireActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
+            }
+        });
+
         return view;
     }
 

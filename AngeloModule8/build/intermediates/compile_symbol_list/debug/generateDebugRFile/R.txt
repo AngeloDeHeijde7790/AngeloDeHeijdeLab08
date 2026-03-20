@@ -27,6 +27,7 @@ int drawable roboute_guilliman 0x0
 int drawable salamanders 0x0
 int drawable warhammer 0x0
 int id angAboutData 0x0
+int id angAboutToggle 0x0
 int id angDrawerLayout 0x0
 int id angFragmentContainer 0x0
 int id angHeaderIconContainer 0x0

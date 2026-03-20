@@ -29,6 +29,7 @@ drawable roboute_guilliman
 drawable salamanders
 drawable warhammer
 id angAboutData
+id angAboutToggle
 id angDrawerLayout
 id angFragmentContainer
 id angHeaderIconContainer
